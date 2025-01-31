@@ -12,14 +12,14 @@
 </head>
 
 <body>
-    <header class="container mx-auto mb-30">
-        <div class="navbar bg-base-100">
+    <header class="mb-30 bg-gradient-to-t from-[#EFEBE3] to-white text-white">
+        <div class="navbar container mx-auto">
             <div class="navbar-start w-full lg:w-1/3 justify-between ">
-                <a class="btn btn-ghost text-xl"><img src="assets/logo-header.png" alt=""></a>
+                <a class="btn btn-ghost text-xl "><img src="assets/logo-header.png" alt=""></a>
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg class="w-8" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
+                        <svg class="w-8" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>
@@ -33,13 +33,13 @@
                 </div>
             </div>
             <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1 font-bold text-xl">
+                <ul class="menu menu-horizontal px-1 font-bold text-xl text-black">
                     <li><a>Product</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a>Contact Us</a></li>
                 </ul>
             </div>
-            <div class="navbar-end flex items-center gap-4 hidden lg:flex">
+            <div class="navbar-end text-black items-center gap-4 hidden lg:flex">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <i class="fa-solid fa-cart-shopping"></i>
                 <a class="btn bg-white border-2 border-[#179800]">Login</a>
@@ -49,34 +49,226 @@
 
         <section class="text-black text-center mt-24 space-y-5 w-full md:w-4/5 mx-auto">
             <h1 class="text-3xl md:text-5xl font-bold">Freshness <span class="text-[#179800]">You Can</span> <br>
-                <span class="text-[#179800]">Count</span> On, Prices You’ll Love!</h1>
-            <p class="w-full md:w-3/4 mx-auto text-gray-600">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+                <span class="text-[#179800]">Count</span> On, Prices You’ll Love!
+            </h1>
+            <p class="w-full md:w-3/4 mx-auto text-gray-600">Shop your daily essentials at unbeatable prices. From fresh
+                produce to pantry staples, we’ve got you covered every day!</p>
             <img class="w-full" src="assets/hero-vegetables.png" alt="">
         </section>
     </header>
 
-    <main class="w-full md:w-5/6 mx-auto">
-        <section id="services" class="my-24 px-5 md:px-0">
+    <main>
+        <section id="services" class="p-10 md:p-0 w-full md:w-5/6 mx-auto my-24 px-5 md:px-0">
             <h1 class="text-4xl text-[#179800] font-bold">Services</h1>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
                 <div class="card flex flex-col items-center gap-5 text-center bg-[#EFEBE3] p-8">
                     <img class="rounded-full bg-white p-5" src="assets/service.png" alt="">
                     <h1 class="text-lg font-bold">24/7 Services</h1>
-                    <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatibus fuga molestias magni nostrum totam?</p>
+                    <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+                        voluptatibus fuga molestias magni nostrum totam?</p>
                 </div>
                 <div class="card flex flex-col items-center gap-5 text-center bg-[#EFEBE3] p-8">
                     <img class="rounded-full bg-white p-5" src="assets/delivery.png" alt="">
                     <h1 class="text-lg font-bold">24/7 Services</h1>
-                    <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatibus fuga molestias magni nostrum totam?</p>
+                    <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+                        voluptatibus fuga molestias magni nostrum totam?</p>
                 </div>
                 <div class="card flex flex-col items-center gap-5 text-center bg-[#EFEBE3] p-8">
                     <img class="rounded-full bg-white p-5" src="assets/healthy.png" alt="">
                     <h1 class="text-lg font-bold">24/7 Services</h1>
-                    <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatibus fuga molestias magni nostrum totam?</p>
+                    <p class="text-sm text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+                        voluptatibus fuga molestias magni nostrum totam?</p>
                 </div>
             </div>
         </section>
+        
+        <section class="py-1 bg-[#EFEBE3] to-white">
+            <div class="p-2 md:p-0 w-full md:w-5/6 mx-auto my-24">
+                <h1 class="text-4xl text-[#179800] font-bold mb-10">Popular Products</h1>
+                <div class="md:flex gap-5 space-y-5 md:space-y-0">
+                    <div class="md:w-1/2 bg-gradient-to-tl from-white to-[#179800] rounded-xl">
+                        <div
+                            class="flex flex-col items-start justify-start text-left p-10 gap-5 text-white bg-[url('assets/vegetable-offer.png')] bg-no-repeat bg-right-bottom h-full">
+                            <h1 class="text-2xl font-bold">30% off</h1>
+                            <p class="text-gray-700">Discover a world of treats, toys, and essentials handpicked for</p>
+                            <a class="btn" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="w-full grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-2">
+                        <div class="card bg-white p-4 flex flex-row gap-5 items-center shadow-lg">
+                            <img class="bg-[#EFEBE3] rounded-xl" src="assets/onion.png" alt="">
+                            <div class="flex flex-col gap-1">
+                                <i class="fa-solid fa-star text-yellow-500 flex gap-2">
+                                    <p class="text-black text-xs">4.5</p>
+                                </i>
+                                <h1 class="text-sm font-bold">Onion 1 KG</h1>
+                                <p class="text-sm font-bold">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="card bg-white p-4 flex flex-row gap-5 items-center shadow-lg">
+                            <img class="bg-[#EFEBE3] rounded-xl" src="assets/onion.png" alt="">
+                            <div class="flex flex-col gap-1">
+                                <i class="fa-solid fa-star text-yellow-500 flex gap-2">
+                                    <p class="text-black text-xs">4.5</p>
+                                </i>
+                                <h1 class="text-sm font-bold">Onion 1 KG</h1>
+                                <p class="text-sm font-bold">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="card bg-white p-4 flex flex-row gap-5 items-center shadow-lg">
+                            <img class="bg-[#EFEBE3] rounded-xl" src="assets/onion.png" alt="">
+                            <div class="flex flex-col gap-1">
+                                <i class="fa-solid fa-star text-yellow-500 flex gap-2">
+                                    <p class="text-black text-xs">4.5</p>
+                                </i>
+                                <h1 class="text-sm font-bold">Onion 1 KG</h1>
+                                <p class="text-sm font-bold">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="card bg-white p-4 flex flex-row gap-5 items-center shadow-lg">
+                            <img class="bg-[#EFEBE3] rounded-xl" src="assets/onion.png" alt="">
+                            <div class="flex flex-col gap-1">
+                                <i class="fa-solid fa-star text-yellow-500 flex gap-2">
+                                    <p class="text-black text-xs">4.5</p>
+                                </i>
+                                <h1 class="text-sm font-bold">Onion 1 KG</h1>
+                                <p class="text-sm font-bold">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="card bg-white p-4 flex flex-row gap-5 items-center shadow-lg">
+                            <img class="bg-[#EFEBE3] rounded-xl" src="assets/onion.png" alt="">
+                            <div class="flex flex-col gap-1">
+                                <i class="fa-solid fa-star text-yellow-500 flex gap-2">
+                                    <p class="text-black text-xs">4.5</p>
+                                </i>
+                                <h1 class="text-sm font-bold">Onion 1 KG</h1>
+                                <p class="text-sm font-bold">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="card bg-white p-4 flex flex-row gap-5 items-center shadow-lg">
+                            <img class="bg-[#EFEBE3] rounded-xl" src="assets/onion.png" alt="">
+                            <div class="flex flex-col gap-1">
+                                <i class="fa-solid fa-star text-yellow-500 flex gap-2">
+                                    <p class="text-black text-xs">4.5</p>
+                                </i>
+                                <h1 class="text-sm font-bold">Onion 1 KG</h1>
+                                <p class="text-sm font-bold">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="card bg-white p-4 flex flex-row gap-5 items-center shadow-lg">
+                            <img class="bg-[#EFEBE3] rounded-xl" src="assets/onion.png" alt="">
+                            <div class="flex flex-col gap-1">
+                                <i class="fa-solid fa-star text-yellow-500 flex gap-2">
+                                    <p class="text-black text-xs">4.5</p>
+                                </i>
+                                <h1 class="text-sm font-bold">Onion 1 KG</h1>
+                                <p class="text-sm font-bold">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="card bg-white p-4 flex flex-row gap-5 items-center shadow-lg">
+                            <img class="bg-[#EFEBE3] rounded-xl" src="assets/onion.png" alt="">
+                            <div class="flex flex-col gap-1">
+                                <i class="fa-solid fa-star text-yellow-500 flex gap-2">
+                                    <p class="text-black text-xs">4.5</p>
+                                </i>
+                                <h1 class="text-sm font-bold">Onion 1 KG</h1>
+                                <p class="text-sm font-bold">$39.99</p>
+                            </div>
+                        </div>
+                        <div class="card bg-white p-4 flex-row gap-5 items-center shadow-lg hidden lg:flex">
+                            <img class="bg-[#EFEBE3] rounded-xl" src="assets/onion.png" alt="">
+                            <div class="flex flex-col gap-1">
+                                <i class="fa-solid fa-star text-yellow-500 flex gap-2">
+                                    <p class="text-black text-xs">4.5</p>
+                                </i>
+                                <h1 class="text-sm font-bold">Onion 1 KG</h1>
+                                <p class="text-sm font-bold">$39.99</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="p-10 md:p-0 w-full md:w-5/6 mx-auto mb-96 my-24 md:mb-72 lg:mb-80 flex flex-col">
+            <h1 class="text-4xl text-[#179800] mb-10 font-bold">Arrival & Offers</h1>
+                <div class="grid grid-clos-1 md:grid-cols-3 gap-5 w-full">
+                    <div class="md:col-span-2 flex w-full bg-[#115414] rounded-xl justify-between p-8">
+                        <div class="flex flex-col gap-5 text-white items-center justify-center">
+                            <img class="" src="assets/dawat-logo.png
+                        " alt="">
+                            <h1 class="text-sm text-white btn bg-[#63B76D]">Cook exotic Dishes</h1>
+                            <h1 class="text-2xl font-bold">UP TO 20% OFF </h1>
+                        </div>
+                        <img class="w-1/2" src="assets/dawat-mock-up.png" alt="">
+                    </div>
+                    <div class="h-full w-full bg-[#102861] rounded-xl p-3 flex flex-row items-center">
+                        <div class="flex bg-[#102861] rounded-xl justify-between p-5">
+                            <div class="w-1/2 flex flex-col gap-5 text-white items-start justify-center">
+                                <img class="w-20" src="assets/india-gate-logo.png                            " alt="">
+                                <h1 class="text-sm btn bg-[#2A4D97] text-white">World’s No.1 Rice</h1>
+                                <h1 class="text-2xl font-bold">UP to 40% OFF</h1>
+                            </div>
+                            <img class="w-1/3 md:1/2" src="assets/india-gate-mock-up.png" alt="">
+                        </div>
+                    </div>
+        </section>
     </main>
+
+    <footer class="bg-[#179800] relative flex flex-col items-center">
+        <section class="absolute -top-[50%] flex flex-col md:flex-row justify-between w-5/6 mx-auto py-10 rounded-xl p-5 bg-[#EFEBE3]">
+            <div class="flex justify-center items-center md:w-1/2 p-8">
+                <img class="w-full lg:w-1/2" src="assets/vegetable-busket.png" alt="">
+            </div>
+            <div class="flex flex-col gap-5 justify-center md:w-1/2 p-8">
+                <h1 class="text-3xl font-bold">Get Grocery News!</h1>
+                <p class="font-bold text-sm">Exclusive training tips, ticks, product deals and more.</p>
+                <input class="py-2 px-4 text-sm rounded-sm lg:w-2/3" type="text" placeholder="Enter email...">
+                <button class="btn bg-[#179800] text-white w-1/2">Subscribe</button>
+            </div>
+        </section>
+
+
+        <section class="footer w-full md:w-5/6 mx-auto pt-72 md:pt-52 lg:pt-60 py-24 p-10 text-white flex flex-col md:flex-row justify-between">
+            <nav class="space-y-4">
+                <img src="assets/logo-footer.png" alt="">
+                <h1>Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</h1>
+            </nav>
+            <nav class="space-y-4">
+                <a href="#services" class="link link-hover">Product</a>
+                <a class="link link-hover">Services</a>
+                <a class="link link-hover">Contact Us</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Follow Us</h6>
+                <div class="grid grid-flow-col gap-4">
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="fill-current">
+                            <path
+                                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="fill-current">
+                            <path
+                                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            class="fill-current">
+                            <path
+                                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+        </section>
+    </footer>
 </body>
 
 </html>
