@@ -42,7 +42,20 @@
             class="flex justify-between items-center p-2 md:w-5/6 mx-auto py-5 border-b-[1px] border-[#179800] md:border-none">
             <div class="flex lg:hidden items-center justify-between gap-5 w-full">
                 <img src="assets/logo-header.png" alt="">
-                <i class="fa-solid fa-bars text-black flex lg:hidden text-3xl"></i>
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost">
+                        <i class="fa-solid fa-bars text-black flex lg:hidden text-3xl"></i>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-gray-300 rounded-lg z-[1] mr-36 md:mr-0 w-52 p-2 shadow text-black text-xl mt-56 ">
+                            <li><a>Home</a></li>
+                            <li>
+                                <a>Product</a>
+                            </li>
+                            <li><a>Services</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="items-center justify-between gap-5 hidden lg:flex">
                 <img src="assets/logo-header.png" alt="">
@@ -207,8 +220,7 @@
         </section>
 
         <!-- Arrival & Offers section -->
-        <section
-            class="poppins-regular p-2 pb-8 md:pb-0 md:p-0 w-full md:w-5/6 mx-auto my-24 flex flex-col">
+        <section class="poppins-regular p-2 pb-8 md:pb-0 md:p-0 w-full md:w-5/6 mx-auto my-24 flex flex-col">
             <h1 class="text-4xl text-[#179800] mb-10 font-bold">Arrival & Offers</h1>
             <div class="grid grid-clos-1 md:grid-cols-3 gap-5 w-full">
                 <div class="md:col-span-2 flex w-full bg-[#115414] rounded-xl justify-between p-8">
@@ -236,42 +248,56 @@
         <!-- FAQ section (Challenge part)  -->
         <section class="w-full md:w-4/5 mx-auto px-5 md:px-0 mb-96 my-24 md:mb-72 lg:mb-80">
             <h1 class="text-4xl fond-bold mb-5 text-center text-[#179800] font-bold">Frequently Asked Any Questions</h1>
-            <p class="text-xl text-gray-500 text-center mb-5">Here are some frequently asked questions about the nature's platter store.</p>
+            <p class="text-xl text-gray-500 text-center mb-5">Here are some frequently asked questions about the
+                nature's platter store.</p>
             <div class="flex flex-col-reverse md:flex-row-reverse justify-center items-center gap-30">
                 <div class="w-full md:w-1/2 space-y-5">
                     <div class="collapse collapse-plus bg-base-200">
                         <input type="radio" name="my-accordion-3" checked="checked" />
-                        <div class="collapse-title text-xl font-bold">1.What makes Nature's Platter different from other grocery stores?</div>
+                        <div class="collapse-title text-xl font-bold">1.What makes Nature's Platter different from other
+                            grocery stores?</div>
                         <div class="collapse-content">
-                            <p>Nature's Platter is committed to providing its customers with the highest quality products available. They carefully select their products from trusted suppliers who share their commitment to quality and sustainability. Nature's Platter also offers a wide variety of organic and natural products, as well as products that are free of gluten, dairy, and other allergens.</p>
+                            <p>Nature's Platter is committed to providing its customers with the highest quality
+                                products available. They carefully select their products from trusted suppliers who
+                                share their commitment to quality and sustainability. Nature's Platter also offers a
+                                wide variety of organic and natural products, as well as products that are free of
+                                gluten, dairy, and other allergens.</p>
                         </div>
                     </div>
                     <div class="collapse collapse-plus bg-base-200">
                         <input type="radio" name="my-accordion-3" />
                         <div class="collapse-title text-xl font-bold">2.Where can I find a Nature's Platter store?</div>
                         <div class="collapse-content">
-                            <p>Nature's Platter has stores in several locations. You can find a list of their store locations on their website. </p>
+                            <p>Nature's Platter has stores in several locations. You can find a list of their store
+                                locations on their website. </p>
                         </div>
                     </div>
                     <div class="collapse collapse-plus bg-base-200">
                         <input type="radio" name="my-accordion-3" />
-                        <div class="collapse-title text-xl font-bold">3.Does Nature's Platter offer online ordering?</div>
+                        <div class="collapse-title text-xl font-bold">3.Does Nature's Platter offer online ordering?
+                        </div>
                         <div class="collapse-content">
-                            <p>Yes, Nature's Platter offers online ordering for both delivery and in-store pickup. You can place your order online and choose a delivery time that is convenient for you, or you can pick up your order at your local Nature's Platter store. </p>
+                            <p>Yes, Nature's Platter offers online ordering for both delivery and in-store pickup. You
+                                can place your order online and choose a delivery time that is convenient for you, or
+                                you can pick up your order at your local Nature's Platter store. </p>
                         </div>
                     </div>
                     <div class="collapse collapse-plus bg-base-200">
                         <input type="radio" name="my-accordion-3" />
                         <div class="collapse-title text-xl font-bold">4.What is Nature's Platter's return policy?</div>
                         <div class="collapse-content">
-                            <p>Nature's Platter has a satisfaction guarantee on all of its products. If you are not happy with your purchase for any reason, you can return it for a full refund.</p>
+                            <p>Nature's Platter has a satisfaction guarantee on all of its products. If you are not
+                                happy with your purchase for any reason, you can return it for a full refund.</p>
                         </div>
                     </div>
                     <div class="collapse collapse-plus bg-base-200">
                         <input type="radio" name="my-accordion-3" />
-                        <div class="collapse-title text-xl font-bold">5.Does Nature's Platter offer any discounts or promotions?</div>
+                        <div class="collapse-title text-xl font-bold">5.Does Nature's Platter offer any discounts or
+                            promotions?</div>
                         <div class="collapse-content">
-                            <p>Yes, Nature's Platter offers a variety of discounts and promotions throughout the year. You can sign up for their email list to be notified of upcoming sales and promotions.</p>
+                            <p>Yes, Nature's Platter offers a variety of discounts and promotions throughout the year.
+                                You can sign up for their email list to be notified of upcoming sales and promotions.
+                            </p>
                         </div>
                     </div>
                 </div>
