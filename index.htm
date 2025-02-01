@@ -34,6 +34,43 @@
             font-style: normal;
         }
     </style>
+    <!-- Animation CSS -->
+    <style>
+        .marquee-container {
+            width: 200px;
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+            margin: 20px auto;
+        }
+
+
+        .marquee {
+            position: absolute;
+            top: 0;
+            animation: marquee 5s linear infinite;
+        }
+
+        .marquee img {
+            display: block;
+            width: 100%;
+            max-height: 100%;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateY(100%);
+            }
+
+            100% {
+                transform: translateY(-12%);
+            }
+        }
+
+        .marquee img {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 
 <body class="font-sora">
@@ -82,7 +119,11 @@
             </h1>
             <p class="w-full md:w-3/4 mx-auto text-gray-600">Shop your daily essentials at unbeatable prices. From fresh
                 produce to pantry staples, we’ve got you covered every day!</p>
-            <img class="w-full" src="assets/hero-vegetables.png" alt="">
+            <div class="marquee-container w-full md:w-1/2 mx-auto md:h-[500px] ">
+                <div class="marquee w-full">
+                    <img class="w-full" src="assets/hero-vegetables.png" alt="">
+                </div>
+            </div>
         </section>
     </header>
 
